@@ -30,3 +30,29 @@
 *.exe
 *.out
 *.app
+
+# 빌드 결과물 무시
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.log
+*.sdf
+*.ipch
+*.vcxproj.user
+
+# 빌드 폴더 무시
+Debug/
+Release/
+x64/
+build/
+
+# 외부 라이브러리는 추적
+!lib/
+!lib/**
+!include/
+!include/**
+
+# VS 구성 파일
+.vscode/
+
