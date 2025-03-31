@@ -57,4 +57,6 @@ build/
 
 # VS 구성 파일
 .vscode/
+!bin/
+!bin/**
 
