@@ -40,6 +40,8 @@
 *.sdf
 *.ipch
 *.vcxproj.user
+.vs/
+
 
 # 빌드 폴더 무시
 Debug/
